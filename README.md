@@ -1,3 +1,3 @@
 # Hydrant KiCad Library
 
--[] hydrant_Display_Character
+- [] hydrant_Display_Character
