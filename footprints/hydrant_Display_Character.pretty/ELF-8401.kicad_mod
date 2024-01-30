@@ -451,7 +451,7 @@
   (pad "10" thru_hole circle (at -1.27 -7.62) (size 1.52 1.52) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 641f1a2c-ad93-49f5-9536-306e822c2e13))
   (pad "11" thru_hole circle (at -3.81 -7.62) (size 1.52 1.52) (drill 0.9144) (layers "*.Cu" "*.Mask") (tstamp 6ed61f75-b04f-4961-a351-58034cb7c610))
   (pad "12" thru_hole circle (at -6.35 -7.62) (size 1.52 1.52) (drill 0.9144) (layers "*.Cu" "*.Mask") (tstamp 67f47717-7fa1-481a-9d0a-9fe6679c6da7))
-  (model "${KICAD7_3DMODEL_DIR}/hydrant/hydrant_Display_Character/ELF-8401.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/hydrant_Display_Character/ELF-8401.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
