@@ -1,0 +1,12 @@
+* Custom LED model based on your specs
+.SUBCKT LED_ANODE CATHODE
+
+* Diode model with custom parameters
+D1 CATHODE N1 D_LED
+
+* Series resistor to adjust dynamic resistance & limit current
+R1 N1 ANODE 100
+
+.MODEL D_LED D(IS=10n N=2 RS=10 CJO=2p TT=2n BV=5 IBV=10u)
+
+.ENDS LED_ANODE
